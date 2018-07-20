@@ -12,7 +12,7 @@ The server also creates a shared memory segment and writes the updated data to i
 
 => Makefile could be used to build the server(main_server is the executable to run the server)
 
-=> Client can be built separately using "g++ -o client client.cpp"
+=> Client can be built separately using ~g++ -o client client.cpp~
 
 => The server can handle multiple clients at the same time(configure max_clients variable in server.cpp as per the requirement)
 
